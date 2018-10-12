@@ -1,0 +1,15 @@
+#bankmanger login
+BmLBtn = div > div:last-child > btn.btn-primary.btn-lg
+
+#add customer login
+#AddCL = "button[class='btn btn-lg tab']"
+
+#firstName
+FirstN = "input[ng-model='fName']"
+
+#LastName
+LastN="input[ng-model='lName']"
+#postCode
+PostC="input[ng-model='postCd']"
+#add customer button
+AddButton="button[type='submit']"

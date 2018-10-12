@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivernFramework">
+
+<listeners>
+
+<listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ <listener class-name="com.techm.listeners.CustomListener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.techm.testcases.AddCustomerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
